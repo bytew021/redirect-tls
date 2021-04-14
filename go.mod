@@ -1,13 +1,10 @@
-module github.com/liberal-boy/tls-shunt-proxy
+module redirect-tls
 
-go 1.14
+go 1.16
 
 require (
-	github.com/caddyserver/certmagic v0.10.7
-	github.com/dvsekhvalnov/jose2go v0.0.0-20200901110807-248326c1351b
-	github.com/go-acme/lego/v3 v3.4.0
-	github.com/miekg/dns v1.1.15
-	github.com/stevenjohnstone/sni v0.0.0-20170603204613-a5facbde9d7d
-	golang.org/x/net v0.0.0-20191027093000-83d349e8ac1a
-	gopkg.in/yaml.v2 v2.2.8
+	github.com/kr/pretty v0.1.0 // indirect
+	golang.org/x/net v0.0.0-20210410081132-afb366fc7cd1
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	gopkg.in/yaml.v2 v2.4.0
 )
